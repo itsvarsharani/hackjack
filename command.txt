@@ -6,4 +6,8 @@ git push origin main
 
 
 for pull
-git pull origin mainS
+git pull origin main origin
+
+https://img.freepik.com/free-photo/front-view-stacked-books-ladders-education-day_23-2149241046.jpg?w=900&t=st=1692003733~exp=1692004333~hmac=4966ef743d096f898e1a5f89b38271fdbfe907006413bfb92e07c8d29b987f39
+https://img.freepik.com/free-photo/front-view-stacked-books-ladders-education-day_23-2149241046.jpg?w=900&t=st=1692003733~exp=1692004333~hmac=4966ef743d096f898e1a5f89b38271fdbfe907006413bfb92e07c8d29b987f39
+https://img.freepik.com/premium-photo/home-appliances-gas-cooker-refrigerator-microwave-washing-machine-blender-toaster-coffee-machine-meat-ginder-kettle-3d-illustration_505080-48.jpg?size=626&ext=jpg&ga=GA1.2.1228346258.1692003472&semt=sph
