@@ -1,0 +1,70 @@
+.product-details {
+    display: flex;
+    margin: 20px;
+  }
+  
+  /* .product_img{
+    background-color: #ff5733;
+  }
+   .product_img img{
+   height:300px !important;
+   width: 200px !important;
+
+  } */
+  #checkjack{
+height: 300px;
+width: 500px;
+  }
+  .product-info {
+    margin-left: 20px;
+  }
+  
+  .product-info h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #ff5733;
+
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .add-to-cart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  } 
+.product-details .product-info  .quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+} 
+
+.product-details .product-info  .quantity span{
+    padding: 0.7rem;
+    font-size: 1.7rem;
+}
+
+.product-details .product-info  .quantity input{
+    border: 1rem solid rgba(0,0,0,0.3);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--black);
+    padding: .5rem;
+    background: rgb(241, 232, 232);
+}
