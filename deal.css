@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root
+{
+    --green:#27ae60;
+    --black:#1c1c35;
+    --blue:#2626d2;
+    
+
+}
+ *{
+       font-family: 'Nunito', sans-serif;
+       margin:0px;
+       padding:0px;
+       box-sizing: border-box;
+       outline:none; border: none;
+       text-decoration: none;
+       text-transform: capitalize;
+       transition: all .2s linear;
+ }
+ *::selection{
+    background-color:var(--green);
+    color: #fff;
+ }
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+section
+{
+    padding: 2rem 9%;
+} 
+.btn
+{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--green);
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background: var(--black);
+}
+.heading{
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+.heading span{
+    color: var(--green);
+    text-transform:uppercase ;
+}
+.deal {
+    background: url(image/Screenshot\ 2023-08-14\ 223143.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 4.5rem;
+    padding-bottom: 7rem;
+
+}
+.deal .content{
+    max-width: 50rem;
+}
+
+.deal .content .title{
+    padding-left: 3rem;
+    font-size: 5rem;
+    color: var(--blue);
+}
+
+.deal .content p{
+    padding-left: 3.3rem;
+    font-size: 1.5rem;
+    
+    color: #333;
+}
+.deal .content .count-down{
+    padding-left: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.deal .content .count-down .box{
+    width: 9rem;
+    text-align: center;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,0.1);
+    border: .1rem solid rgba(0,0,0,0.3);
+}
+
+.deal .content .count-down .box h3{
+    color: var(--black);
+    background: #fff;
+    height: 7rem;
+    line-height: 7rem;
+    width: 100%;
+    font-size: 5rem;
+}
+
+.deal .content .count-down .box span{
+    display: block;
+    background-color: var(--black);
+    color: #fff;
+    width: 100%;
+    padding: .5rem;
+    font-size: 2rem;
+}
+.deal .content a{
+    padding-left: 5.3rem;
+}
+#mega{
+    font-size: 3rem;
+    padding-left: 3rem;
+    color: #3c53a4;
+
+}
+#dealfont{
+
+    padding-left: 2rem;
+    font-size: 8rem;
+    color: #0d2a93;
+   font-family: Abril Fatface;
+}
+
+
+/* media queries */
+@media(max-width:768px)
+{
+    #menu-bar
+    {
+        display: initial;
+    }
+
+    
+    .deal{
+        background-position: left;
+    }
+    .deal .content{
+        max-width: 100%;
+        text-align: center;
+    }
+    .deal .content .count-down{
+        justify-content: center;
+    }
+    .contact form .inputBox input{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .logo{
+        font-size: 4rem;
+    }
+
+    .deal .content .count-down .box h3{
+        font-size: 4rem;
+    }
+
+    .deal .content .count-down .box span{
+        font-size: 1.5rem;
+    }
+}
