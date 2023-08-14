@@ -1,0 +1,9 @@
+push 
+
+git add .
+git commit -m "i have added paragraph"
+git push origin main
+
+
+for pull
+git pull origin mainS
