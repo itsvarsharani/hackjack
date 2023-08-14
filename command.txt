@@ -6,4 +6,4 @@ git push origin main
 
 
 for pull
-git pull origin mainS
+git pull origin main
