@@ -1,0 +1,57 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('imgd.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee p{
+    display: inline-block;
+    margin: 50px 50px;
+    animation: marquee 15s linear infinite;
+    color: black;
+    padding: 500px 500px;
+    /* background-color: rgb(115, 227, 54); */
+    font-size: 500%;
+    border-radius: 10px;
+    text-align:;
+
+
+  }
+  
+  .content {
+    display: inline-block;
+    animation: marquee 20s linear infinite; 
+  }
+  
+  .marquee img {
+    width: 200px; 
+    height: auto;
+    margin: 10px;
+  }
+
+  
+  /* @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }  */
+   @keyframes marquee{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+  } 
