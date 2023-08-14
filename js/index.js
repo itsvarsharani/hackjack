@@ -6,6 +6,7 @@ let product = [
     {
         name: "Mathemathics",
         price: "999",
+        actual price : "55",
         discount: "77%",
         images: "https://m.media-amazon.com/images/I/41r6F2LRf8L._SX323_BO1,204,203,200_.jpg",
 
