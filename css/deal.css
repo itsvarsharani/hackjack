@@ -59,7 +59,7 @@ section
     text-transform:uppercase ;
 }
 .deal {
-    background: url(image/Screenshot\ 2023-08-14\ 223143.png) no-repeat;
+    background: url("image/timer.png") no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 4.5rem;
