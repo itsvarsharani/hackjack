@@ -1,5 +1,5 @@
         :root {
-            --pink:rgb(62, 94, 238);
+            --pink: rgb(62, 94, 238);
         }
 
         * {
@@ -13,37 +13,41 @@
             text-transform: capitalize;
             transition: .2s linear;
         }
-        header{
+
+        header {
             position: relative;
-            top:0; left:0; right:0;
+            top: 0;
+            left: 0;
+            right: 0;
             background: #fff;
-            padding:2rem 9%;
+            padding: 2rem 9%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             z-index: 1000;
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         }
-        
-        header  .logo{
+
+        header .logo {
             font-size: 3rem;
             color: skyblue;
             font-weight: bolder;
         }
-        
-        header .logo span{
-            color:var(--pink);
+
+        header .logo span {
+            color: var(--pink);
         }
-        .heading{
+
+        .heading {
             text-align: center;
             font-size: 4rem;
             color: #333;
             padding: 1rem;
             margin: 2rem;
-            background: rgba(255,51,153,.05);
+            background: rgba(255, 51, 153, .05);
         }
-        
-        .heading span{
+
+        .heading span {
             color: var(--pink);
         }
 
@@ -58,22 +62,24 @@
             padding: 2rem 9%;
         }
 
-        .parent{
+        .parent {
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap !important;
             padding: 10px;
-            margin: 12px;
+            /* margin: 12px; */
         }
 
-        .box-container{
-            width:300px;
+        .box-container {
+            width: 300px;
             height: 400px;
-            margin-top: 15px;
+
+
+
         }
 
-        
+
 
         header .fa-bars {
             font-size: 3rem;
@@ -111,7 +117,7 @@
             color: var(--pink);
             background: rgba(255, 51, 153, .05);
             z-index: 1;
-            border-radius: .5rem; 
+            border-radius: .5rem;
         }
 
 
@@ -130,13 +136,13 @@
             transform: scale(1.1);
         }
 
-       .products .box-container .box .image .icons {
+        .products .box-container .box .image .icons {
             position: absolute;
             bottom: 0;
             left: 0;
             right: 0;
             display: flex;
-        } 
+        }
 
         .product .box-container .box:hover .image .icons {
             bottom: 0;
@@ -184,5 +190,3 @@
             font-weight: lighter;
             text-decoration: line-through;
         }
-
-       
