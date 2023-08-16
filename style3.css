@@ -1,0 +1,37 @@
+
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 50%;
+  }
+  
+  .slide img {
+    width: 40%;
+    height: auto;
+    image-rendering: auto;
+  }
+  
+  
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+  .slides {
+    animation: slideAnimation 5s infinite;
+  }
+  
